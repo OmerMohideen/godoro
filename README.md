@@ -2,13 +2,21 @@
 
 Godoro is a Pomodoro app built using GoLang and React, powered by the Wails framework.
 
+## Table of Contents
+- [Images](#images)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Credits](#credits)
+
+## Images
+
+![app](./images/dark-app.png "darkmode home")
+![settings](./images/dark-settings.png "darkmode settings")
+
 ## Installation
 
 To install Godoro, you can download the latest stable build from the releases section.
-
-1. Go to the [releases page](link_to_releases_page).
-2. Download the appropriate package for your operating system (Windows, macOS, Linux).
-3. Install the downloaded package by following the installation instructions specific to your OS.
 
 ## Usage
 
@@ -17,14 +25,18 @@ Once installed, you can start using Godoro to manage your Pomodoro sessions:
 1. Launch Godoro application.
 2. Set the duration for your work and break sessions.
 3. Start the timer to begin your Pomodoro session.
-4. Godoro will notify you when it's time to take a break or resume work.
 
 ## Features
 
 - Simple and intuitive interface.
 - Customizable Pomodoro session durations.
-- Notifications for session start, break, and end.
 - Pause and resume functionality for flexibility during work sessions.
+
+## Credits
+
+- Application Design by [Mai](https://www.figma.com/community/file/1339098747297145667/pomodoro-timer-with-settings-using-variables-fully-functional)
+- Application Icon by [Kordás Barnabás](https://linktr.ee/kovaszos_uborka)
+- Framework used [Wails](https://wails.io/)
 
 ## Contributing
 
@@ -32,4 +44,4 @@ If you'd like to contribute to Godoro, feel free to submit pull requests or open
 
 ## License
 
-This project is licensed under the [MIT License](link_to_license).
+This project is licensed under the [MIT License](./LICENSE).
