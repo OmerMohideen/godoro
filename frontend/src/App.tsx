@@ -35,7 +35,7 @@ function App() {
                         if (nextTabIndex === 0 || !transition) {
                             clearInterval(timer);
                             setPause(true);
-                        } else if (pauseCounter < (2 * 2) - 1) {
+                        } else if (pauseCounter < (2 * 4) - 1) {
                             if (pauseCounter % 2 == 1) {
                                 memoizedGetTime(tabs[1]).then(updateTime);
                                 setSelectedTab(tabs[1]);
